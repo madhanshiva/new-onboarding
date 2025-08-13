@@ -72,48 +72,59 @@ In this task, you’ll sign in to Microsoft Copilot Studio, create a new agent u
 
     ![](Images/12-8-25-l1-11.png)
 
-12. Continue the conversation with Copilot, responding to its prompts to define your agent’s details:  
-    - Assign an appropriate name.
+12. On the **Agent** page, enter the following name in the message box **(1)** to set the name of your new agent, then click the **Send** icon **(2)** to submit it.  
+
+    ```prompt
+    Expense Claims Assistant
+    ```
+    ![](Images/12-8-25-l1-11.2.png)
+    
+13. Continue the conversation with Copilot, responding to its prompts to define your agent’s details:
+    
     - Use a friendly and professional tone.  
     - Do not use any publicly accessible websites as a source of information (a knowledge source will be added later).  
     - Avoid offering any tax-related advice.
 
-13. Once completed, a preview of the chat interface for your agent will appear alongside the conversation used to create it and select **Create** at the top right to create your agent.
+14. Once completed, a preview of the chat interface for your agent will appear alongside the conversation used to create it and select **Create** at the top right to create your agent.
 
-      ![](Images/12-8-25-l1-12.1.png)
+    ![](Images/12-8-25-l1-12.1.png)
 
-14. After the agent is created, the agent details page is displayed with its configuration and the **Test your agent** panel.
+    > **Note:** If the agent name is incorrect, click **Edit (1)**, update the name in the **Name** field **(2)** to `Expense Claims Assistant`, and save the changes.    
+
+    ![](Images/12-8-25-l1-11.2.png)
+    
+16. After the agent is created, the agent details page is displayed with its configuration and the **Test your agent** panel.
 
      ![](Images/12-8-25-l1-12-home.png)
 
-15. In the **Test your agent** pane, enter the following prompt **(1)** and click the **Send** icon **(2)** to test the agent’s response:  
+17. In the **Test your agent** pane, enter the following prompt **(1)** and click the **Send** icon **(2)** to test the agent’s response:  
 
     ```prompt
     Hello
     ```
     ![](Images/12-8-25-l1-13.1.png)
 
-16. Review the response to ensure it provides an appropriate and relevant message.
+18. Review the response to ensure it provides an appropriate and relevant message.
 
       ![](Images/12-8-25-l1-13.png)
 
-17. Now, in the **Test your agent** pane, enter the following prompt and press **Enter** to check if the agent provides the correct guidance:  
+19. Now, in the **Test your agent** pane, enter the following prompt and press **Enter** to check if the agent provides the correct guidance:  
 
     ```prompt
     Who should I contact about submitting an expense claim?
     ```
     
-18. This time, the response may be appropriate but is likely to be generic. In a real organization, the agent should provide specific contact details, such as an email address or phone number, for the user to reach out to.
+20. This time, the response may be appropriate but is likely to be generic. In a real organization, the agent should provide specific contact details, such as an email address or phone number, for the user to reach out to.
 
     ![](Images/12-8-25-l1-14.png)
 
-19. Let's try another prompt in the **Test your agent** pane to check its response:  
+21. Let's try another prompt in the **Test your agent** pane to check its response:  
 
     ```prompt
     What's the expense limit for a hotel stay?
     ```
 
-20. Again, the response may be appropriate but generic. In a real organization, the agent should provide a more specific answer based on the company’s expense policies.
+22. Again, the response may be appropriate but generic. In a real organization, the agent should provide a more specific answer based on the company’s expense policies.
 
     ![](Images/12-8-25-l1-15.png)
 
